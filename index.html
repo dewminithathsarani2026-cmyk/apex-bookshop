@@ -1,17 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>apex bookshop & Stationers</title>
 </head>
+
 <body>
     <h1> 📚Apex Bookshop & Stationers</h1>
     <p>Welcome to our school bookshop. Use the quick links below to jump straight to your section: </p>
     <ul>
         <li> <a href="story books section"> Story Books Section</a></li>
         <li> <a href="textbooks section">Textbooks Section </a></li>
-         <li> <a href="place an order"> Place an Order </a></li>
+        <li> <a href="place an order"> Place an Order </a></li>
     </ul>
     <hr>
     <h2>📖Story Books Selection</h2>
@@ -24,23 +26,84 @@
             <th>Availability</th>
         </tr>
         <tr>
-            <td><img src="assets\75003.jpg" alt="the secret island" width="80" height="150" ></td>
-            <td> <b> The Secret Island</b> <br> Author: Enid Blyton <br> <br> An exciting adventure story about four children sprmding their on a hidden island.</td>
+            <td><img src="assets\75003.jpg" alt="the secret island" width="80" height="150"></td>
+            <td> <b> The Secret Island</b> <br> Author: Enid Blyton <br> <br> An exciting adventure story about four
+                children sprmding their on a hidden island.</td>
             <td> Rs.850.00</td>
             <td> <mark> In Stock</mark></td>
         </tr>
         <tr>
-            <td><img src="assets\Madol-E.jpg" alt="Madol duwa" width="80" height="150" ></td>
-            <td> <b> Madol Doova</b> <br> Author: Martin Wickramasinghe <br> <br> A classic Sinhalese novel translated into English, showcasing  the lives of teenage boys on an isolated island.</td>
+            <td><img src="assets\Madol-E.jpg" alt="Madol duwa" width="80" height="150"></td>
+            <td> <b> Madol Doova</b> <br> Author: Martin Wickramasinghe <br> <br> A classic Sinhalese novel translated
+                into English, showcasing the lives of teenage boys on an isolated island.</td>
             <td> Rs.600.00</td>
             <td> <mark> In Stock</mark></td>
         </tr>
     </table>
-    <br>
+    <br> <br>
+    <details>
+        <summary> <u>Back to Top</u> </summary>
+        <hr>
+        <h2>📝School Textbooks</h2>
+        <table border="1" cellpadding="10" cellspacing="0">
+            <tr>
+                <th> Subject</th>
+                <th> Grade</th>
+                <th> Medium</th>
+                <th> Price</th>
+                <th> </th>
+            </tr>
+            <tr>
+                <td> Information & Communication Technology (ICT) </td>
+                <TD> Grade 10/11 </TD>
+                <td> English Medium</td>
+                <td>Rs.450.00 </td>
+                <td> Available</td>
+            </tr>
+            <tr>
+                <td> Mathematics</td>
+                <td> Grade 11</td>
+                <td> English Medium</td>
+                <td> Rs.520.00</td>
+                <td><s>Out of Stock</s></td>
+            </tr>
+        </table> <br>
+        <br>
+        <details>
+            <summary> <u> Back to Top </u> </summary>
+            <hr>
+            <h2>🛒Quick Order Reservation.</h2>
 
+            <p>Fill out this form to reserve your books before coming to the store.</p>
+            <fieldset>
+                <legend> Order Details</legend>
+                <form>
+                    <label for="admission no"> Student Admission No:</label>
+                    <input type="text" id="admission" placeholder="e,g.,ST-1234" name="admission"><br> <br>
+                    <label for="Reserve"> Select Book to Reserve:</label>
+                    <select id="reserve" name="reserve">
+                        <option value="data1"> The Secret Island(Rs.850.00)</option>
+                        <option value="data2"> The Secret Island(Rs.950.00)</option>
+                        <option valie="data3">The Secret Island(Rs.1050.00)</option>
+                    </select><br> <br>
+                    <label for="date">Preferred Collection Date:</label>
+                    <input type="date" id="date" name="date"> <br> <br>
+                    <label for="note"> Special Notes/ Instructions:</label> <br>
+                    <textarea id="note" name="note" rows="3" cols="100"
+                        placeholder="Any specific ieqirements.."></textarea>
+                    <br> <br>
+                    <input type="submit" value="Submit Reservation">
+                    <input type="reset" value="Reset Form">
 
+                </form>
+            </fieldset>
+        </details>
 
+    </details>
 
+    <br> <br>
+    &copy; 2026 Apex School Bookshop Management System.
 
 </body>
+
 </html>
